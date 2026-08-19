@@ -16,9 +16,14 @@ def fetch_weather_data():
     }
 
     print("正向 API 發送請求中...")
-    response = requests.get(url, params=params, timeout=10)
+    try:
+        response = requests.get(url, params=params, timeout=10)
+    except requests.RequestException as e:
+        print(f"請求失敗：{e}")
+        return None
 
-    if response.status_value == 200:  # 確保請求成功
+    # 修正：使用 status_code 屬性
+    if response.status_code == 200:  # 確保請求成功
         data = response.json()
         current = data.get("current_weather", {})
 
