@@ -40,5 +40,11 @@
         "temperature": 26.5,
         "windspeed": 3.6,
         "weathercode": 3
+    },
+    {
+        "fetch_time": "2026-08-23 13:57:14",
+        "temperature": 27.0,
+        "windspeed": 7.6,
+        "weathercode": 3
     }
 ]
