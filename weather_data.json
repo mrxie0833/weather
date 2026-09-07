@@ -124,5 +124,11 @@
         "temperature": 25.0,
         "windspeed": 7.2,
         "weathercode": 80
+    },
+    {
+        "fetch_time": "2026-09-07 13:06:45",
+        "temperature": 23.5,
+        "windspeed": 1.5,
+        "weathercode": 0
     }
 ]
