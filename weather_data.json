@@ -442,5 +442,11 @@
         "temperature": 20.9,
         "windspeed": 6.1,
         "weathercode": 0
+    },
+    {
+        "fetch_time": "2026-10-31 17:27:04",
+        "temperature": 22.9,
+        "windspeed": 12.1,
+        "weathercode": 2
     }
 ]
