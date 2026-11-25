@@ -586,5 +586,11 @@
         "temperature": 18.8,
         "windspeed": 6.3,
         "weathercode": 3
+    },
+    {
+        "fetch_time": "2026-11-25 22:04:00",
+        "temperature": 17.9,
+        "windspeed": 3.2,
+        "weathercode": 51
     }
 ]
